@@ -1,0 +1,5 @@
+(executable
+    (name foo)
+    (libraries js_of_ocaml-lwt js_of_ocaml-tyxml)
+    (modes js)
+    (preprocess (pps js_of_ocaml-ppx)))
